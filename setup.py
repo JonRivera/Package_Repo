@@ -6,9 +6,9 @@ lambdata - a collection of Data Science helper functions
 import setuptools
 
 REQUIRED = [
-    "numpy",
-    "pandas",
-    "sklearn"
+    "numpy>=1.19.1",
+    "pandas>=1.1.0",
+    "scikit-learn>=0.23.1"
 ]
 
 with open("README.md", "r") as file:
@@ -16,7 +16,7 @@ with open("README.md", "r") as file:
 
 setuptools.setup(
     name="lambdata-JonRivera",
-    version="0.0.1",
+    version="0.0.2",
     author="JonRivera",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
