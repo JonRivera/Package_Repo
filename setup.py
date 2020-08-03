@@ -16,8 +16,8 @@ with open("README.md", "r") as file:
 
 setuptools.setup(
     name="lambdata-JonRivera",
-    version="0.0.0",
-    author="JonRivera",
+    version="0.0.1",
+    author="JonRiveraex",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
