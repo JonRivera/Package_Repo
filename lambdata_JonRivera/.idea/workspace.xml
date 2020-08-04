@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec091a0-1ab4-462b-9c1d-38c8d09d915d" name="Default Changelist" comment="" />
+    <list default="true" id="0ec091a0-1ab4-462b-9c1d-38c8d09d915d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/lambdata_JonRivera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lambdata_JonRivera.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package0.py" beforeDir="false" afterPath="$PROJECT_DIR$/package0.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +49,35 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="RunManager">
+    <configuration name="package0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lambdata_JonRivera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.package0" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +88,7 @@
       <updated>1596420455001</updated>
       <workItem from="1596420456799" duration="54000" />
       <workItem from="1596420538093" duration="189000" />
+      <workItem from="1596513080300" duration="852000" />
     </task>
     <servers />
   </component>
@@ -73,9 +108,32 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="183" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596420601748">
+    <state x="183" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596513116808">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="183" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.828@0.23.1440.828" timestamp="1596420601748" />
+    <state x="183" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.828@0.23.1440.828" timestamp="1596513116808" />
+    <state x="140" y="160" width="1200" height="591" key="DiffContextDialog" timestamp="1596513917432">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="140" y="160" width="1200" height="591" key="DiffContextDialog/0.23.1440.828@0.23.1440.828" timestamp="1596513917432" />
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1596513806923">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1596513806923" />
+    <state width="1358" height="202" key="GridCell.Tab.0.center" timestamp="1596513806922">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1358" height="202" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1596513806922" />
+    <state width="1358" height="202" key="GridCell.Tab.0.left" timestamp="1596513806922">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1358" height="202" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1596513806922" />
+    <state width="1358" height="202" key="GridCell.Tab.0.right" timestamp="1596513806923">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1358" height="202" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1596513806923" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lambdata_JonRivera$package0.coverage" NAME="package0 Coverage Results" MODIFIED="1596513806911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

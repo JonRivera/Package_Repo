@@ -25,4 +25,3 @@ def features_select(df,name_target,max_cardinality =20):
     return (features, target)
 
 
-
