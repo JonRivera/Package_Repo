@@ -1,10 +1,10 @@
 "Package0 - a collection of Data Science helpfer functions"
 
-import pandas as pd 
-import numpy as np 
+import pandas as pd
+import numpy as np
 import sklearn
-
 from sklearn.model_selection import train_test_split
+
 def data_null_check(df):
   """Prints out nulls of dataframe into a nice data frame format"""
   if type(df)==pd.core.frame.DataFrame:
@@ -24,7 +24,5 @@ def features_select(df,name_target,max_cardinality =20):
     features = numeric_features + categorical_features
     return (features, target)
 
-
-    
 
 
