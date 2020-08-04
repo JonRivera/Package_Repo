@@ -15,7 +15,7 @@ def features_select(df,name_target,max_cardinality =20):
     name of feature in strings, and has an optional 3rd parameter of max
     cardinality allowed"""
     target = name_target
-    #creating subsets of features, splitted between numerical and categorical
+    # creating subsets of features, splitted between numerical and categorical
     train_features =  df.drop(columns = [name_target],axis =1)
     numeric_features = train_features.select_dtypes(include='number').columns.tolist()
     cardinality = train_features.select_dtypes(exclude ='number').nunique()
@@ -25,3 +25,10 @@ def features_select(df,name_target,max_cardinality =20):
     return (features, target)
 
 
+class Game:
+    def __init__(self, player1='Jon',player2='Rivera'):
+        self.rounds=2
+        self.steps =5
+        self.core=4
+        self.player1=player1
+        self.player2=player2

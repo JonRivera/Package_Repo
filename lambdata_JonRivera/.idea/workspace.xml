@@ -21,14 +21,30 @@
   <component name="ChangeListManager">
     <list default="true" id="0ec091a0-1ab4-462b-9c1d-38c8d09d915d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/lambdata_JonRivera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lambdata_JonRivera.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package0.py" beforeDir="false" afterPath="$PROJECT_DIR$/package0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -49,14 +65,30 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Sprint8_Notes">
+    <configuration name="Sprint8_Notes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lambdata_JonRivera" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/Sprint8_Notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="package0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lambdata_JonRivera" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -65,7 +97,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/package0.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -74,6 +106,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Sprint8_Notes" />
+        <item itemvalue="Python.Sprint8_Notes" />
+        <item itemvalue="Python.package0" />
+        <item itemvalue="Python.package0" />
         <item itemvalue="Python.package0" />
       </list>
     </recent_temporary>
@@ -88,7 +124,7 @@
       <updated>1596420455001</updated>
       <workItem from="1596420456799" duration="54000" />
       <workItem from="1596420538093" duration="189000" />
-      <workItem from="1596513080300" duration="852000" />
+      <workItem from="1596513080300" duration="8250000" />
     </task>
     <servers />
   </component>
@@ -112,28 +148,49 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="183" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.828@0.23.1440.828" timestamp="1596513116808" />
-    <state x="140" y="160" width="1200" height="591" key="DiffContextDialog" timestamp="1596513917432">
+    <state x="140" y="160" width="1200" height="591" key="DiffContextDialog" timestamp="1596535751887">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="140" y="160" width="1200" height="591" key="DiffContextDialog/0.23.1440.828@0.23.1440.828" timestamp="1596513917432" />
-    <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1596513806923">
+    <state x="140" y="160" width="1200" height="591" key="DiffContextDialog/0.23.1440.828@0.23.1440.828" timestamp="1596535751887" />
+    <state width="930" height="202" key="GridCell.Tab.0.bottom" timestamp="1596564574699">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1358" height="202" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1596513806923" />
-    <state width="1358" height="202" key="GridCell.Tab.0.center" timestamp="1596513806922">
+    <state width="930" height="202" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1596564574699" />
+    <state width="930" height="202" key="GridCell.Tab.0.center" timestamp="1596564574696">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1358" height="202" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1596513806922" />
-    <state width="1358" height="202" key="GridCell.Tab.0.left" timestamp="1596513806922">
+    <state width="930" height="202" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1596564574696" />
+    <state width="930" height="202" key="GridCell.Tab.0.left" timestamp="1596564574695">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1358" height="202" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1596513806922" />
-    <state width="1358" height="202" key="GridCell.Tab.0.right" timestamp="1596513806923">
+    <state width="930" height="202" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1596564574695" />
+    <state width="930" height="202" key="GridCell.Tab.0.right" timestamp="1596564574698">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1358" height="202" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1596513806923" />
+    <state width="930" height="202" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1596564574698" />
+    <state width="1358" height="251" key="GridCell.Tab.1.bottom" timestamp="1596521858440">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1596521858440" />
+    <state width="1358" height="251" key="GridCell.Tab.1.center" timestamp="1596521858439">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1596521858439" />
+    <state width="1358" height="251" key="GridCell.Tab.1.left" timestamp="1596521858439">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1596521858439" />
+    <state width="1358" height="251" key="GridCell.Tab.1.right" timestamp="1596521858440">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1596521858440" />
+    <state x="405" y="175" width="670" height="676" key="search.everywhere.popup" timestamp="1596522003597">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="405" y="175" width="670" height="676" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1596522003597" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lambdata_JonRivera$package0.coverage" NAME="package0 Coverage Results" MODIFIED="1596513806911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lambdata_JonRivera$package0.coverage" NAME="package0 Coverage Results" MODIFIED="1596521838142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lambdata_JonRivera$Sprint8_Notes.coverage" NAME="Sprint8_Notes Coverage Results" MODIFIED="1596564570076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>
