@@ -6,6 +6,7 @@ Unit 3 Package Repositories
 output null values of columns in data frame into "pretty format".
 * Able to create features with low cardinality
 
+# Examples
 * Examples of applying function outputting null values in pretty format
 ```python
 >>>from package0 import data_null_check
