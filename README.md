@@ -5,9 +5,6 @@ Unit 3 Package Repositories
 * Contains a module which includes a function that is able to 
 output dataframe into "pretty format".
 
-* Able to create features with low cardinality
-ex)
-
 * Example1
 
 ```python
@@ -29,6 +26,7 @@ b    1
 dtype: int64
 
 ```
+* Able to create features with low cardinality
 * Example of low cardinality feature selection
 ```python
 >>> df = pd.read_csv("https://raw.githubusercontent.com/JonRivera/JonRivera.github.io/master/Unit2/Buil_Week/Data_Sets/Hotel_Bookings/hotel_bookings.csv")
