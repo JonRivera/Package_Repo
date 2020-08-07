@@ -55,5 +55,7 @@ https://github.com/JonRivera/Package_Repo/blob/master/README.md
 # How to install it
 pip install -i https://test.pypi.org/simple/ lambdata-JonRivera
 
-
+#
+## License
+* MIT License
 
