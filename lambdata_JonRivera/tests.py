@@ -14,7 +14,7 @@ class TestPackage0(unittest.TestCase):
         """Tests if the correct # of nulls for data_null_check are returned"""
         NaN = np.NaN
         df1 = pd.DataFrame({'a': [NaN, 3, 4, 5], 'b': [1, NaN, 5, 7]})
-        df2 = pd.DataFrame({'b': [NaN, 7, 8, 9, 10]})df2 = pd.DataFrame({'b': [NaN, 7, 8, 9, 10]})
+        df2 = pd.DataFrame({'b': [NaN, 7, 8, 9, 10]})
         self.assertEqual(sum(data_null_check(df1).values), 2)
         self.assertEqual(sum(data_null_check(df2).values), 1)
 
