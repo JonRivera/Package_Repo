@@ -12,9 +12,8 @@ ex)
 
 ```python
 >>>from package0 import data_null_check
->>> data_null_check(df1)
 >>> df1 = pd.DataFrame({'a': [NaN, 3, 4, 5], 'b': [1, NaN, 5, 7]})
-
+>>> data_null_check(df1)
 a    1
 b    1
 
