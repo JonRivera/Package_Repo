@@ -46,7 +46,7 @@ dtype: int64
 
  ```
 # Where to get it
-https://github.com/JonRivera/Package_Repo/blob/master/README.md
+https://github.com/JonRivera/Package_Repo
 
 # Dependencies
 * Numpy
